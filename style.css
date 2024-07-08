@@ -40,11 +40,12 @@
 }
 
 .text h1 {
-    font-weight: normal;
+    /* font-weight: normal; */
     font-size: 25px;
 }
 
 .text h5 {
+    margin-bottom: 15px;
     margin-top: 5px;
 	color: greenyellow;
 }
@@ -52,7 +53,7 @@
 .text p {
     font-weight: 400;
     font-size: 15px;
-    color: hsl(0, 0%, 70%);
+    color: hsl(0, 0%, 85%);
 }
 
 .social-info {
@@ -76,12 +77,23 @@
 	text-decoration: none;
 	color: whitesmoke;
 	margin-top: 15px;
+    font-weight: 600;
 }
 
 
 
 
 @media (min-width: 375px) {
+
+    .card {
+        width: 385px;
+        height: 610px;
+    }
+
+    .social-info a {
+        width: 305px;
+    }
+
     .social-info a:hover {
         background-color: greenyellow;
         color: #141414;
